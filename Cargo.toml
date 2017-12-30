@@ -1,0 +1,11 @@
+[package]
+name = "n2k-codegen"
+version = "0.1.0"
+authors = ["erwin"]
+
+[dependencies]
+serde="1.0"
+serde_derive="*"
+serde-xml-rs="*"
+log="*"
+env_logger="*"
