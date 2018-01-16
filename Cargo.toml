@@ -1,11 +1,15 @@
 [package]
 name = "n2k-codegen"
+description="Generates code to decode n2k messages. Uses the definitions found in the canboat project on github."
+homepage="http://github.com/navalanche/n2k-codegen"
+repository="https://github.com/navalanche/n2k-codegen"
+license="AGPL-3.0"
 version = "0.1.0"
-authors = ["erwin"]
+authors = ["Erwin Gribnau <erwin@gribnau.org>"]
 
 [dependencies]
-serde="1.0"
-serde_derive="*"
-serde-xml-rs="*"
-log="*"
-env_logger="*"
+serde="1"
+serde_derive="1"
+serde-xml-rs="0.*"
+log="0.*"
+env_logger="0.*"
